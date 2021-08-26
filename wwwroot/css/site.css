@@ -1,0 +1,315 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+html, body {
+   
+    font-family: tahoma, sans-serif;
+    color: #E6EBEE;
+}
+
+#card {
+    background-color: #393B45;
+    height: auto;
+    width: 350px;
+    margin: 10vh auto;
+    border-radius: 25px;
+    padding-bottom: 1px;
+    box-shadow: 2px 2px 5px #4069E2;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    width: 100%;
+    background-color: #E6EBEE;
+    border-radius: 25px 25px 0 0;
+    color: #393B45;
+    padding: 30px 0;
+    font-weight: 800;
+    margin: 0;
+}
+
+.image-crop {
+    display: block;
+    position: relative;
+    background-color: #E6EBEE;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 30px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px #4069E2;
+}
+
+#avatar {
+    display: inline;
+    height: 230px;
+    width: auto;
+    margin-left: -34px;
+}
+
+#bio {
+    display: block;
+    margin: 30px auto;
+    width: 280px;
+    height: auto;
+}
+
+#bio p {
+    color: #E6EBEE;
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: justify;
+}
+
+#stats {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 280px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.stat {
+    font-size: 25px;
+    margin: 0;
+}
+
+.label {
+    margin: 0;
+}
+
+#buttons {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 280px;
+}
+
+button {
+display: block;
+position: relative;
+padding: 10px 0;
+width: 130px;
+margin: 30px 0;
+border-radius: 25px;
+border: none;
+font-size: 20px;
+letter-spacing: 0.2px;
+font-weight: 500;
+background-color: #4069E2;
+color: #E6EBEE;
+}
+
+button:focus {
+    display: none;
+}
+
+button:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+#msg {
+    background-color: #E6EBEE;
+    color: #393B45;
+}
+.container1 {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+background: #F9F9F9;
+padding: 25px;
+margin: 150px 0;
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+#contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+#contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #4CAF50;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+    background: #43A047;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+    text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+:-moz-placeholder {
+    color: #888;
+}
+
+::-moz-placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
+}
